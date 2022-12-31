@@ -1,1 +1,1 @@
-# Homework-of-Computer-Science
+# Homework_of_Computer_Science

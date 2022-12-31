@@ -85,3 +85,30 @@
 * tar.gz
    * 壓縮：tar -zcvf FileName.tar.gz DirName
    * 解壓縮：tar -zxvf FileName.tar.gz9
+
+### Linux 指令 —— 檔案 && 文字相關
+
+* echo
+    * 基礎
+        * 用法：echo "text"
+        * 效果：印出文字
+    * 進階
+        * 用法：echo "text" >> filename （接續在原檔案內容後）|| echo "text" > filename （覆蓋原檔案內容）
+        * 效果：將文字寫入>> || > 後的檔案
+* cat （concatenate）
+    * 效果：將文件內容串接後顯示
+    * 用法：cat file1 file2
+
+### Q && A
+
+Q：檔案為什麼沒有副檔名
+A：Linux不依靠副檔名來判斷檔案類型
+
+### Linux背景知識 —— 資料傳輸
+
+![image](https://user-images.githubusercontent.com/112980770/210152551-5d6ba914-9f03-4f55-8d5a-2ed4f5a114c4.png)
+
+* Port
+> 通訊埠號是 TCP/UDP 與上層通訊的通道，當 TCP/UDP 要傳送訊息時，會指定要由哪一個通訊埠號來接收。一些常用的服務會使用特定的埠號來等待要求的訊息。埠號是由 16 個位元所組成的號碼，0 ~ 255 為保留號碼，256 ~ 65535 則可自行設定。
+* TCP/IP
+> TCP/IP提供了點對點的連結機制，將資料應該如何封裝、定址、傳輸、路由以及在目的地如何接收，都加以標準化。它將軟體通信過程抽象化為四個抽象層，採取協議堆疊的方式，分別實作出不同通信協定。協定套組下的各種協議，依其功能不同，被分別歸屬到這四個階層之中，常被視為是簡化的七層OSI模型。
